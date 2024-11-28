@@ -14,5 +14,3 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector(".order-button").classList.add("show");
   }, 1000);
 });
-
-//hej
