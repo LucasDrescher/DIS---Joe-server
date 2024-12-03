@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joe & The Juice Adventskalender</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joe & The Juice Adventskalender</title>
+<link rel="stylesheet" href="../home.css"> <!-- Sørg for den korrekte sti -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="calendar-container">
+<nav class="navbar">
+    <div class="logo">
+        <img src="../pics/joe-logo.png" alt="Logo"> <!-- Sørg for den korrekte sti -->
+    </div>
+    <ul class="nav-links">
+        <li><a href="/Joe - DIS/index.html">HOME</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">STORES</a></li>
+        <li><a href="#">APP</a></li>
+        <li><a href="#">CAREERS</a></li>
+        <li><a href="#">EVENT BOOKINGS</a></li>
+        <li><a href="advent.html">JUICY ADVENT</a></li>
+        <li><a href="#">& MORE</a></li>
+    </ul>
+    <div class="nav-right">
+        <img class="flag" src="../pics/danmark-flag.png" alt="DK Flag"> <!-- Sørg for den korrekte sti -->
+        <div class="user-icon">
+            <span>&#128100;</span>
+            <a href="../login.html">LOGIN</a>
+        </div>
+    </div>
+</nav>
+<div class="calendar-container">
     <div class="door" id="door1">
-      <span class="door-text">1. Advent</span>
-      <span class="hidden-message">Få 10% rabat på din næste juice!</span>
+        <span class="door-text">1. Advent</span>
+        <span class="hidden-message">Få 10% rabat på din næste juice!</span>
     </div>
     <div class="door" id="door2">
-      <span class="door-text">2. Advent</span>
-      <span class="hidden-message">Køb en sandwich og få en kaffe gratis!</span>
+        <span class="door-text">2. Advent</span>
+        <span class="hidden-message">Køb en sandwich og få en kaffe gratis!</span>
     </div>
     <div class="door" id="door3">
-      <span class="door-text">3. Advent</span>
-      <span class="hidden-message">Få en gratis kage, når du køber en drik!</span>
+        <span class="door-text">3. Advent</span>
+        <span class="hidden-message">Få en gratis kage, når du køber en drik!</span>
     </div>
     <div class="door" id="door4">
-      <span class="door-text">4. Advent</span>
-      <span class="hidden-message">Vind et gavekort på 100 kr!</span>
+        <span class="door-text">4. Advent</span>
+        <span class="hidden-message">Vind et gavekort på 100 kr!</span>
     </div>
-  </div>
-  <script src="juicyadvent.js"></script>
+</div>
+<script src="juicyadvent.js"></script>
 </body>
 </html>
